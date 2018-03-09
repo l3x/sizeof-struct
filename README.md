@@ -3,7 +3,6 @@ Golang sizeof tips
 
 **Web tool for interactive playing with Golang struct sizes.**
 
-Try online version [here](http://sizeof-struct/).
 
 ## Aim
 Provide comfortable tool to see how fields in struct are aligned,
@@ -12,12 +11,13 @@ and remember alignment rules.
 
 ## Installing
 To install correct versions of dependencies
-[Goop dependency manager](https://github.com/nitrous-io/goop) should be used.
+[Dep dependency manager](https://github.com/golang/dep) should be used.
 ```bash
+brew install dep
 go get github.com/l3x/sizeof-struct
 cd github.com/l3x/sizeof-struct
-goop install
-goop go build -o ./server
+dep ensure
+go build -o $GOBIN/server
 ```
 You may also install via simple `go get` by your own risk.
 
