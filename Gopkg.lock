@@ -2,26 +2,36 @@
 
 
 [[projects]]
+  digest = "1:7dd26fc40f374321dec2aa6fc99d82f4d05b99e6464ab99ef392c1eb376d63c4"
   name = "github.com/l3x/go-bindata-assetfs"
   packages = ["."]
+  pruneopts = "UT"
   revision = "dc684e111db2673b6fb2f3c04cd860e6da529b3d"
   version = "v1.0.2"
 
 [[projects]]
+  digest = "1:e96c4fdb10464282f1f69958a074eeea0bc7e3e41107a6753a62c5d5f5f9435c"
   name = "github.com/l3x/godaemon"
   packages = ["."]
+  pruneopts = "UT"
   revision = "6574fcb6e968684ba40f04a2988abcfc35182d02"
   version = "v1.0.2"
 
 [[projects]]
+  digest = "1:5cb3a9ef33009d2b751e8094a0935ebf9cd9a7d2f5ca990a9487f53312e2b4ce"
   name = "github.com/l3x/log4go"
   packages = ["."]
+  pruneopts = "UT"
   revision = "c7195f54e337e9808bbb34e180529640641c790a"
   version = "v1.0.2"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "eb03b1058e0d450d6e023613f17eb4a4f6cb402c9f1ed7c45009abcbf7269ee2"
+  input-imports = [
+    "github.com/l3x/go-bindata-assetfs",
+    "github.com/l3x/godaemon",
+    "github.com/l3x/log4go",
+  ]
   solver-name = "gps-cdcl"
   solver-version = 1

@@ -29,6 +29,11 @@ You may also install via simple `go get` by your own risk.
 ./server restart
 ```
 
+## Screen Shot
+
+![Size of Struct](/home/lex/GOPATHs/sizeof-struct/src/github.com/l3x/sizeof-struct/size-of-struct.png  "Size of Struct")
+
+
 ## Platform support
 Tested on Linux and OS X x64 platforms, but should work properly and on other
 *nix-like platforms.
